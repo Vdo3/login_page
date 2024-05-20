@@ -1,0 +1,16 @@
+
+<div class="container">
+    <h1>Sign up</h1>
+    <form #signup="ngForm" (ngSubmit)="submit(signup)">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input required type="text" name="username" class="form-control" ngModel>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input required type="password" name="password" class="form-control" ngModel>
+        </div>
+        <app-button text="Back" routerLink="/"></app-button>
+        <app-button type="submit" text="Submit"></app-button>
+    </form>
+</div>

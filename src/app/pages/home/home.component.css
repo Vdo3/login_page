@@ -1,0 +1,10 @@
+/* Center the <h1> */
+h1 {
+    text-align: center;
+  }
+  
+/* Stack the buttons vertically */
+app-button {
+  display: block;
+  margin: 10px auto;
+}
